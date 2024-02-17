@@ -1,0 +1,32 @@
+uuid: 00557437-ce00-439f-a9df-8278a999dd2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ck_blocktype
+    - field.field.block_content.ck_blocktype.body
+    - field.field.block_content.ck_blocktype.field_gender
+  module:
+    - options
+    - text
+id: block_content.ck_blocktype.default
+targetEntityType: block_content
+bundle: ck_blocktype
+mode: default
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_gender:
+    type: list_key
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

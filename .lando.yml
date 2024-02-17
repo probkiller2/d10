@@ -1,0 +1,8 @@
+name: lando-drupal10
+recipe: drupal10
+config:
+  webroot: .
+  xdebug: true
+services:
+  myservice:
+    type: phpmyadmin

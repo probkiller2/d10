@@ -1,0 +1,8 @@
+uuid: ad114bb4-4fb8-4d22-9463-f538462d0318
+langcode: en
+status: true
+dependencies: {  }
+id: ck_blocktype
+label: ck-blocktype
+revision: 0
+description: ''
