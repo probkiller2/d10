@@ -1,0 +1,11 @@
+uuid: ca75ce04-3470-4f69-9dce-4fd43e838bb4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.chand_test1
+label: 'Chand- Test1'
+description: ''
+targetEntityType: node
+cache: true
