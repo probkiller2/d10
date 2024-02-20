@@ -1,5 +1,5 @@
 <?php
 function helloWorld() {
-  echo '1';
+  echo '3';
 
 }
